@@ -30,3 +30,23 @@ body{
 .two>p{
     color: coral;
 }
+
+.t{
+    background-color: rgb(101, 26, 50);
+    text-align: center;
+    text-transform: capitalize;
+    text-indent: 23px;
+    padding-bottom: 10px;
+    align-items: center;
+
+border-color: rgb(205, 255, 219);
+border-width: 4px;
+border-radius: 10px;
+border-style: solid;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+display: flex;
+height: 200px;
+width: 300px;
+
+}
