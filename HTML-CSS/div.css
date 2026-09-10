@@ -1,0 +1,32 @@
+body{
+    margin: 20px;
+    display: flex;
+}
+
+
+.one{
+    background-color: rgb(255, 242, 0);
+    padding: 10px;
+   border-color: aqua;
+   border-radius: 10px;
+   margin: 20px;
+   background-image:url(./gub_logo.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain; 
+    position: relative;
+    z-index: 1;
+   
+}
+
+
+.two{
+    background-color: rgb(0, 255, 145);
+    padding: 10px;
+   border-color: aqua;
+   border-radius: 10px;
+   margin: 10px;
+}
+.two>p{
+    color: coral;
+}
