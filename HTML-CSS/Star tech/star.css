@@ -79,3 +79,13 @@ transition: 05s;
     font-size: 16px;
     outline: none;
 }
+
+
+.Dhaka{
+    display: flex;
+    gap: 15px;
+    font-weight: bold;
+}
+.Dhaka i{
+    margin-top: 20px;
+}

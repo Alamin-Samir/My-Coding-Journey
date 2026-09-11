@@ -1,0 +1,45 @@
+.menu{
+    
+    width: fit-content;
+    color: rgb(5, 11, 5);
+    font-weight: bold;
+    padding: 05px;
+    border-radius: 10px;
+}
+
+
+.sub{
+
+    display: none;
+
+}
+
+
+.menu:hover .sub{
+    display: block;
+   
+}
+
+a{
+    color: black;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+a:hover{
+color: blue;
+transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation: shake 0.3s ease infinite;
+}
+
+pre{
+    background-color: blue;
+    font-size: larger;
+    padding: 6px;
+    font-weight: bold;
+    color: rgb(230, 215, 215);
+    cursor: pointer;
+    
+}
+
