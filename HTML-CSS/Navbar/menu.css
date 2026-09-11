@@ -17,3 +17,20 @@
     position: absolute;
     background-color: blue;
 }
+
+
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.parent{
+    display: grid;
+    gap: 3px;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: space-between;
+}
