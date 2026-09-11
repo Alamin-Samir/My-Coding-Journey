@@ -1,0 +1,27 @@
+.pp{
+    width: 600px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    color: rgb(42, 211, 211);
+}
+
+span{
+    font-size: 45px;
+    position: relative;
+    top: -20px;
+    padding: 20px;
+}
+
+
+.copy{
+    
+    
+    background-color: rgb(113, 77, 77);
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+
+
