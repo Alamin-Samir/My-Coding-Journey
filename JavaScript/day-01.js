@@ -220,5 +220,35 @@ else{
     console.log("no mango in array");
 }
 
-//array push
+//array push,pop, shift , unshift
 
+let x3=[1,32,6,3,6]
+x3.push(4);
+console.log(x3)
+x3.pop()
+console.log(x3);
+x3.unshift(7777)
+console.log(x3)
+
+//remove duplicate value in array
+
+let x4=[3,3,4,5,6,7,8,9,0,0,7,8,9,67,11,7,8,6,6,8,9,6,7,9,67,8,9,8,7,98,6,9,67,89,7,9,7,8,]
+
+
+let u =[...new Set(x4)];
+console.log(u)
+
+
+//create  a set, 
+
+let s=new Set();
+s.add(1);
+s.add(2)
+s.add(4)
+console.log(s);
+s.delete(2);
+
+//add a value in set
+let s2 = new Set([1, 2, 3, 54, 6]);
+
+console.log(s2.has(66666) ? "yes" : "no");
