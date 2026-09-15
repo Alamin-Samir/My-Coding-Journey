@@ -69,7 +69,7 @@ else{
 
     //craete a array
 
-    let fruits=["apple","banana","orange","pinapple","jack-fruit","caster-apple"];
+    let fruits=["apple","banana","orange","pinapple","jack-fruit","caster-apple","mango"];
 
     console.log(fruits);
 
@@ -86,3 +86,139 @@ for(let i=0; i<fruits.length; i++){
 }
 
 // create a object
+
+let person={
+    name:"samir",
+    age:26,
+    city:"Bogura"
+}
+
+console.log(person)
+
+// show fixed object value 
+
+console.log(person.age);
+
+
+//  if else check
+
+    let mark=78;
+
+    if (mark>=80){
+        console.log("A+")
+    }
+
+    else if(mark>=70){
+        console.log("A")
+    }
+else{
+    print("Fail");
+}
+
+//while loop
+
+let i=1;
+while(i<=5){
+    console.log(i)
+    i++
+}
+
+//take user input
+
+/*let namee=prompt("enter your namee")
+
+console.log(namee);*/
+
+//square calcute 
+
+let number1 = 5;
+console.log("cube =", Math.pow(number1, 3)); 
+// square:
+ console.log("square =", Math.pow(number1, 2));
+
+ //date
+ let today=new Date();
+ console.log(today);
+
+ // addition in 1-10 number
+
+
+ let n=10;
+
+ let sum=n*(n+1)/2;
+
+ console.log(sum);
+
+ //write a function print a 3 number
+
+
+ function add3(a,b,c){
+    return a+b+c;
+ }
+ console.log(add3(4,7,8));
+
+
+ // find a even number in 1-100
+
+ for (let i=1; i<=100; i++){
+    if(i%2===0){
+        console.log(i)
+    }
+ }
+
+ // name reverse
+
+ let name3="samir"
+ let reverse="";
+
+ for(let i=name3.length-1; i>=0; i--){
+
+    reverse=reverse+name3[i]}
+
+    console.log(reverse);
+
+
+    // calculate even number in array
+
+    let numbers = [12, 5, 8, 20, 15, 22, 7];
+
+let evenNumbers = numbers.filter(num => num % 2 === 0);
+
+console.log("even number:", evenNumbers);
+
+
+
+
+// array all number addition
+
+let number4 = [10, 20, 30, 40, 50];
+
+let summ = number4.reduce((total, num) => total + num, 0);
+
+console.log("total addition:", summ);
+
+
+//lenght in string , and case change
+
+let x1="hello bangladesh are you ok right now"
+
+console.log(x1.length)
+console.log(x1.toUpperCase());
+
+// add two string value
+
+let a1="hello"
+let x2="add me"
+console.log(a1 + "" + x2);
+
+//find fixed value in array
+
+if(fruits.includes("mango")){
+    console.log("found mango");
+}
+else{
+    console.log("no mango in array");
+}
+
+//array push
+
