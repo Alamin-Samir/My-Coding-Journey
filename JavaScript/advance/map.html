@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map Test</title>
+</head>
+<body>
+
+    <!-- যেখানে লিস্টগুলো শো করবে -->
+    <ul id="my-list"></ul>
+
+    <script>
+        const products = ["Laptop", "Phone", "Headphone"];
+
+        // map দিয়ে প্রতিটি আইটেমকে <li> ট্যাগ বানিয়ে একটি সিঙ্গেল স্ট্রিংয়ে রূপান্তর করা
+        const productList = products.map(item => `<li>${item}</li>`).join("");
+
+        // এইচটিএমএলের ul ট্যাগের ভেতরে বসিয়ে দেওয়া
+        document.getElementById("my-list").innerHTML = productList;
+    </script>
+</body>
+</html>
