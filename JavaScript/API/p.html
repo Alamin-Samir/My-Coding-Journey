@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+
+<h1>Weather Data</h1>
+
+<div id="result"></div>
+
+<script>
+
+async function loadWeather() {
+
+    let response = await fetch(
+        "https://api.open-meteo.com/v1/forecast?latitude=23.81&longitude=90.41&current=temperature_2m,relative_humidity_2m,wind_speed_10m"
+    );
+
+    let data = await response.json();
+
+    document.getElementById("result").innerHTML = `
+        <p>Temperature: ${data.current.temperature_2m}°C</p>
+        <p>Humidity: ${data.current.relative_humidity_2m}%</p>
+        <p>Wind Speed: ${data.current.wind_speed_10m} km/h</p>
+    `;
+}
+
+loadWeather();
+
+</script>
+
+</body>
+</html>

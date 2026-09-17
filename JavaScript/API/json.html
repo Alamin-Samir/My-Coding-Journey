@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h4>covert json to object</h4>
+
+    <script>
+      let json = '{"name":"Samir","age":23,"city":"Dhaka"}';
+
+      let object = JSON.parse(json);
+
+      document.write(object.name + "<br>");
+      document.write(object.age);
+    </script>
+  </body>
+</html>
