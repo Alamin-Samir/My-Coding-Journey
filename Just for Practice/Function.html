@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Arrow Function & Array Methods</title>
+</head>
+<body>
+    <h3>JavaScript Practice</h3>
+
+    <ul id="my-list"></ul>
+
+    <script>
+        // Arrow Function: Addition
+        const add = (a, b) => a + b;
+        document.write(add(5, 7) + "<br>");
+
+        // Arrow Function: Subtraction
+        const yes = (c, d) => c - d;
+        document.write(yes(5, 9) + "<br>");
+
+        // Array Filter
+        const price = [100, 67, 6000, 7999, 333, 77, 8888];
+        const allprice = price.filter(p => p < 500);
+        document.write("Filtered Prices (< 500): " + allprice.join(", ") + "<br>");
+
+        // Array findIndex
+        const mark = [40, 60, 78, 45, 88, 60, 60, 66];
+        const allmark = mark.findIndex(m => m === 60);
+        document.write("First Index of 60: " + allmark);
+    </script>
+</body>
+</html>
